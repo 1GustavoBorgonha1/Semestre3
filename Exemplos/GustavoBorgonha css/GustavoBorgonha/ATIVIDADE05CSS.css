@@ -1,0 +1,122 @@
+/*NOME: GUSTAVO BORGONHA*/
+
+/*1) Remova o espaçamento interno e a margem externa presente de forma nativa na tag body.*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*2) Nenhum link do site deve possuir o underline e toda fonte do site deve ser Arial.*/
+a{
+    text-decoration: none;
+}
+*{
+    font-family: arial;
+}
+/*3) O cabeçalho do site deve ocupar 100% da página, possuir uma cor de fundo azul claro, e altura de
+240px.*/
+header{
+    width: 100%;
+    height: 240px;
+    background-color: lightblue ;
+}
+
+/*4) A imagem presente no topo do site deve possuir 150px de largura e altura (ajuste isto também no
+HTML com os atributos corretos). Deve manter uma margem externa de 10px para cada lado e
+flutuação para esquerda.*/
+#unidavi{
+    height: 150px ;
+    width: 150px ;
+    margin: 10px;
+    float: left;
+}
+/*5) O título de nível 01 do cabeçalho deve estar na cor #666666, fonte 36px, Arial, negrito e sublinhado,
+flutuando para esquerda ao lado da imagem.*/
+h1{
+    color: #666666 ;
+    font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: underline;
+    float: left;
+}
+
+/*6) Formate todos os títulos de nível 02 com a cor azul escuro, fonte 18px, Arial e negrito.*/
+h2{
+    color:darkblue ;
+    font-size: 18px ;
+    font-family: arial ;
+    font-weight: bold;
+}
+
+/*7) A primeira letra do texto presente na “Introdução” deve estar com o tamanho 24px na cor verde
+escuro.*/
+#intro::first-letter{
+    font-size: 24px;
+    color: darkgreen;
+}
+/*8) Formate os itens do menu do site para que estejam na cor verde, negrito e fonte 16px.*/
+.menu{
+    color: green;
+    font-weight: bold;
+    font-size: 16px;    
+}
+/*9) Formate os itens do menu para que alterem para cor azul ao passar o mouse sobre eles.*/
+.menu:hover{
+    color: blue;
+}
+/*10) Altere os bullets points das listas não ordenadas para um quadrado.*/
+ul{
+    list-style: square;
+}
+/*11) Altere a numeração das listas ordenadas para números romanos em letra maiúscula.*/
+ol{
+    list-style: upper-roman;
+}
+/*12) Formate a cor do conteúdo presente na nas tags strong e enfatizadas (em) para azul claro.*/
+strong,em{
+    color: lightblue;
+}
+/*13) Formate as tags de abreviatura em negrito e na cor vermelha.*/
+abbr{
+    font-weight: bold;
+    color: red;
+}
+/*14) Formate todos os títulos das listas de definição para que possuam margem superior de 12px.*/
+dt{
+    margin-top: 12px;
+}
+/*15) Formate os links que estão dentro dos títulos da lista de definição para que estejam na cor laranja,
+itálicos e negrito.*/
+dl a{
+    color: orange;
+    font-weight: bold;
+    font-style: italic;  
+}
+/*16) Formate todos os textos da definição para que estejam na cor #333333, com preenchimento interno de
+16px, cor de fundo cinza claro.*/
+dd{
+    color: #333333;
+    padding: 16px;
+    background-color: lightgray;
+
+}
+/*17) Nenhuma imagem do site deve possuir borda.*/
+img{
+    border: none;
+}
+/*18) Ajuste para que os textos de todos os parágrafos e das listas de definição estejam justificados.*/
+p,dd{
+    text-align: justify;
+}
+/*19) O rodapé do site deve ocupar 100% da página, cor de fundo azul escuro, e altura de 240px.*/
+footer{
+    width: 100%;
+    background-color: lightblue;
+    height: 240px;
+}
+/*20) O conteúdo da tag de contato do rodapé deve estar na cor cinza escuro e com margem de 20px.*/
+footer address{
+    color: darkgray;
+    margin: 20px;
+}
