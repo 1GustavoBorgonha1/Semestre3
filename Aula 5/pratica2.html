@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notas de Alunos</title>
+    <link rel="stylesheet" href="pratica2.css">
 </head>
 <body>
-    <h1>Notas do Alunos</h1>
+    <h1>Notas dos Alunos</h1>
     <br>
-    <table border="1">
+    <div class="button-container">
+        <button onclick="adicionarLinhaTotalizadora()">Adicionar Linha Totalizadora</button>
+        <button onclick="adicionarColunaTotalizadora()">Adicionar Coluna Totalizadora</button>
+    </div>
+    <table border="1" id="tabelaNotas">
         <thead>
             <tr>
                 <th rowspan="2">Aluno</th>
@@ -28,6 +33,7 @@
                 <th>Nota 3</th>
             </tr>
         </thead>
+        <tbody>
             <tr>
                 <td>João</td>
                 <td>10</td>
@@ -100,6 +106,8 @@
                 <td></td>
                 <td></td>
             </tr>                                                            
+        </tbody>
     </table>
+    <script src="pratica2.js"></script>
 </body>
 </html>
